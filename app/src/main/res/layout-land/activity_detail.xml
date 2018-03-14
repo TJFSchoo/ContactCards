@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.s2032257.tom.spotifyclone.presentation.DetailActivity">
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_view_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full name"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_nationality_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nationality"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_gender_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_email_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_phone_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_cell_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cell"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+
+</LinearLayout>
