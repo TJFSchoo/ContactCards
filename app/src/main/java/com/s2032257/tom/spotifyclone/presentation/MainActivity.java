@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
         recyclerView.setHasFixedSize(true);                                                         // ''
         recyclerView.setLayoutManager(new LinearLayoutManager(this));                       // Verticale layout RecyclerView
         peopleList = new ArrayList<Person>();                                                       // Initiëren van Source lijst van personen voor vullen van RecyclerView
-        String[] urls = {"https://randomuser.me/api?results=15"};                                   // Aangeven van API source URL met als doel 15 personen op te halen
+//        String[] urls = {"https://randomuser.me/api?results=15"};                                   // Aangeven van API source URL met als doel 15 personen op te halen
+        String[] urls = {"https://programmeren-4-tjfschoo.herokuapp.com/api"};
         try {
             aSyncTask.execute(urls);                                                                // Starten van asynchrone taak (het ophalen van de API data en deze om te zetten naar instanties van Person, en toe te voegen aan geïnstantieerde personenlijst in deze class)
         } catch (Exception e) {
